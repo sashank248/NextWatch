@@ -1,0 +1,119 @@
+.login-con-light {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.login-con-dark {
+  min-height: 100vh;
+  background-color: #181818;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.login-card-light {
+  width: 300px;
+  min-height: 300px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-dark {
+  background-color: #0f0f0f;
+  width: 300px;
+  min-height: 300px;
+  box-shadow: 0px 4px 16px 0px #0f0f0f;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.login-input-light {
+  border: 1px solid #616e7c;
+  padding: 10px;
+  border-radius: 10px;
+  color: #1e293b;
+  background-color: transparent;
+  outline: none;
+}
+
+.login-input-dark {
+  border: 1px solid #616e7c;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f1f1f1;
+  background-color: transparent;
+  outline: none;
+}
+
+.login-label-light {
+  color: #475569;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.login-label-dark {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.form-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.shw-pass-con {
+  margin-bottom: 10px;
+}
+
+.login-button {
+  background-color: #4f46e5;
+  font-weight: 500;
+  color: #ffffff;
+  border: 0px;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  align-self: stretch;
+}
+
+.errmsg {
+  color: #ff0000;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 0px;
+  margin: 0px;
+  align-self: flex-start;
+}

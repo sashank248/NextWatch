@@ -1,0 +1,26 @@
+.not-found-light {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  color: #181818;
+}
+
+.not-found-con {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.not-found-dark {
+  min-height: 100vh;
+  background-color: #181818;
+  color: #f9f9f9;
+}
+
+.not-found {
+  width: 150px;
+}

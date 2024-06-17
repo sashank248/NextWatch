@@ -1,0 +1,52 @@
+.light-active {
+  background-color: #d7dfe9;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.dark-active {
+  background-color: #606060;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.inactive {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.active-icon {
+  color: #ff0b37;
+  margin-right: 10px;
+}
+
+.light-inactive-icon {
+  color: #383838;
+  margin-right: 10px;
+}
+
+.dark-inactive-icon {
+  color: #ebebeb;
+  margin-right: 10px;
+}
+
+.link-el-dark {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-el-light {
+  color: #0f0f0f;
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.fail-con {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-dark {
+  color: #ffffff;
+  text-align: center;
+}
+
+.fail-light {
+  color: #000000;
+  text-align: center;
+}
+
+.fail-btn {
+  background-color: #00306e;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.fail-img {
+  width: 150px;
+}
+
+.loader-container {
+  min-height: 50vh;
+}

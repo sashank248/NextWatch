@@ -1,0 +1,53 @@
+.fail-con {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fail-dark {
+  color: #ffffff;
+  text-align: center;
+}
+
+.fail-light {
+  color: #000000;
+  text-align: center;
+}
+
+.fail-btn {
+  background-color: #00306e;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.fail-img {
+  width: 150px;
+}
+
+.loader-container {
+  min-height: 50vh;
+}
+
+.search-btn-dark{
+  background-color: #606060;
+  color : #383838;
+  border: 0px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-btn-light{
+  background-color: #f1f1f1;
+  color : #231f20;
+  border: 0px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
