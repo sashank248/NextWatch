@@ -183,6 +183,7 @@ class VideoBanner extends Component {
                   onChange={this.onChangeSearchValue}
                 />
                 <SearchButton
+                  type="button"
                   data-testid="searchButton"
                   isDark={isDark}
                   onClick={this.onSearch}

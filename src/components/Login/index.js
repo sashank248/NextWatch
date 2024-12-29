@@ -2,6 +2,7 @@ import {Component} from 'react'
 import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import NxtWatchContext from '../../context/NxtWatchContext'
+import {LoginButton} from './styledComponents'
 import './index.css'
 
 class Login extends Component {
@@ -23,6 +24,7 @@ class Login extends Component {
     this.setState({shwErrMsg: false, errMsg: ''})
     const {history} = this.props
     history.replace('/')
+    console.log(data.jwt_token)
   }
 
   onFail = data => {
@@ -126,9 +128,7 @@ class Login extends Component {
                       </label>
                     </div>
                   </div>
-                  <button type="submit" className="login-button">
-                    Login
-                  </button>
+                  <LoginButton type="submit">Login</LoginButton>
                   {shwErrMsg && <p className="errmsg">*{errMsg}</p>}
                 </form>
               </div>

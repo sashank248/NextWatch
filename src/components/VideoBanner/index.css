@@ -34,18 +34,18 @@
   min-height: 50vh;
 }
 
-.search-btn-dark{
+.search-btn-dark {
   background-color: #606060;
-  color : #383838;
+  color: #383838;
   border: 0px;
   padding: 10px;
   outline: none;
   cursor: pointer;
 }
 
-.search-btn-light{
+.search-btn-light {
   background-color: #f1f1f1;
-  color : #231f20;
+  color: #231f20;
   border: 0px;
   padding: 10px;
   outline: none;
